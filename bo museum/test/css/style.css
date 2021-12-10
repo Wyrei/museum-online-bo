@@ -1,0 +1,15 @@
+*{
+    margin:  0%;
+    padding: 0%;
+}
+#img2{
+    width: 1536px;
+    height: 600px;
+    margin: 0%;
+}
+#covid{
+    background-color: grey;
+    width: 1536px;
+    height: 200px;
+    top: 200px;
+}

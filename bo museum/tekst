@@ -1,0 +1,36 @@
+html
+        <p id="openingstijden">openingstijden</p>    
+    <ul id="open">      
+        <p id="openingtijden2">museum (dinsdag t/m zondag)	10.00 - 17.00 uur</p>
+        <p id="vakantie">vakantie openingstijden - van maandag t/m zondag	10.00 - 17.00 uur</p>
+        <p id="winkel">museumwinkel (dinsdag t/m zondag)	10.00 - 17.00 uur</p>
+        <p id="bibliotheek">bibliotheek (dinsdag t/m vrijdag)	10.00 - 17.00 uur</p>
+        <p id="covid">covid maatregellen</p>
+        <p id="covidtext"></p>
+        <p id="entree">entreeprijzen</p>
+        <a href="file:///C:/Users/ruben/Desktop/SD1A%20second%20periode/museum%20online%20bo/bo%20museum/ticket.html">
+        <p id="kinderen">kinderen van 0 t/m 3 jaar	gratis</p>
+        <p id="tieners">kinderen van 4 t/m 17 jaar (*)	€ 8,00 [let op: vanaf 1 januari 2022 wordt dit €8,50]</p>
+        <p id="volwassenen">volwassenen vanaf 18 jaar (*)	€ 16,50 [let op: vanaf 1 januari 2022 wordt dit €17,50]</p>
+        <p id="student">studenten, CJP Cultuurkaart	€ 8,00 [let op: vanaf 1 januari 2022 wordt dit €8,50]</p>
+        <p id="amsterdam">I Amsterdam City Card, Amsterdams Passie	gratis</p>
+        <p id="kaart">Museumkaart	gratis</p>
+        <p id="stadspas">Stadspas	gratis</p>
+        <p id="VIP">VriendenLoterij VIP-KAART	gratis</p>
+        </a>
+    </ul>  
+css
+#openingstijden{
+    width: auto;
+    height: 80px;
+    text-align: center;
+    font-size: 60px;
+    background-color: 	#5135b6;
+}
+#open{
+    text-align: center;
+    font-size: 40px;
+    height: 1200px;
+    width: auto;
+    background-color: lightblue;
+}

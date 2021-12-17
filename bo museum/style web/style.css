@@ -32,47 +32,61 @@ h1{
 #logo:hover{
 
 }
-#titel{
-    width: auto;
-    height: 80px;
-    text-align: center;
-    font-size: 60px;
-}
+
 
 #geschiedenis{
     width: auto;
     height: 200px;
     text-align: center;
-    font-size: 20px;
-}
-#openingstijden{
-    width: auto;
-    height: 80px;
-    text-align: center;
-    font-size: 60px;
-    background-color: 	#5135b6;
-}
-#open{
-    text-align: center;
     font-size: 40px;
-    height: 1200px;
-    width: auto;
-    background-color: lightblue;
 }
-#prijs1{
-    width: 500px;
-    height: 300px;
-    border-radius: 10px;
-    margin-left: 40px;
-}
-#prijs1:hover{
-    transform: scale(1.05);
-}
-#prijs2{
 
-    background-color: black;
+
+.container{
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+.container img{
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+}
+.container img:hover{
+    transform: scale(1.15);
+}
+.foto{
     color: white;
-    height: 40px;
-    width: 100px;
-    margin-left: 40px;
+    font-size: 50px;
+    position: absolute;
+    top: 500px;
+    left: 440px;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 10px black;
+}
+.history{
+    width: 600px;
+    height: 600px;
+    position: relative;
+    left: 300px;
+    bottom: 230px;
+}
+.history img{
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+}
+.history img:hover{
+    transform: scale(1.15);
+}
+.brain{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 10px black;
 }

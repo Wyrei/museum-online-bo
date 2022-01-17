@@ -7,11 +7,12 @@
 body{
     background-color: brown;
 }
-header, footer{
+header{
     background-color: #222831;
     color: white;
     height: 60px;
 }
+
 nav{
     width: 60vw;
     height: 100%;
@@ -147,4 +148,41 @@ nav > ul > li > a{
     font-size: 75px;
     padding-bottom: 5px;
     background-color: #80471C;
+}
+.revieuw{
+    height: 400px;
+    width: auto;
+    margin: 50px;
+    border-radius: 50px;
+    background-color: orange;
+    border-radius: 50px;
+    background:linear-gradient(transparent, 60%, black);  
+}
+.revieuws{
+    display: flex;
+    justify-content: center ;
+    font-size: 60px;
+}
+.text{
+    display: flex;
+    justify-content: center ;
+    font-size: 40px;
+    margin: 10px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    height: 180px;
+}
+.mail{
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.telefoon{
+    display: flex;
+    justify-content: center;
 }

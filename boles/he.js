@@ -17,7 +17,7 @@ let directionsbuttons = {
     "Expo": document.getElementById('Expo'),
     "tale": document.getElementById('tale'),
     "see": document.getElementById('see'),
-    "back": document.getElementById('back')
+    //"back": document.getElementById('back')
 }
 
 let current_index = 0;
@@ -28,118 +28,121 @@ let locaties = [ //array
         "image":"img/R.png",
         "directions": {
             "sea": 1,
-            "voc": 2
+            "voc": 2,
+            "Port": 3,
+            "Ship": 4,
+            "Paintings": 5,
+            "Instruments": 6,
+            "Photo": 7,
+            "Yacht": 8,
+            "Atlases": 9,
+            "Glass": 10,
+            "Circus": 11,
+            "Expo": 12,
+            "tale": 13,
+            "see": 14
         }
     },
     { //1 = object
         "titel":"Voyage at Sea",
-        "image":"",
+        "image":"img/1.jpg",
         "directions": {
-            "back": 0
+            //"back": 0
 
         }
     },
     { //2 = object
-        "titel":"",
-        "image":"",
+        "titel":"VOC schip Amsterdam",
+        "image":"img/sheep.png",
         "directions": {
             "back": 0
 
         }
     },
     { //3 = object
-        "titel":"",
-        "image":"",
+        "titel":"Port 24/7",
+        "image":"img/3.jpg",
         "directions": {
-
+            "back": 0
         }
     },
     { //4 = object
-        "titel":"",
-        "image":"",
+        "titel":"The Ship Decorations",
+        "image":"img/4.jpg",
         "directions": {
-
+            "back": 0
         }
     },
     { //5 = object
-        "titel":"",
-        "image":"",
+        "titel":"The Paintings",
+        "image":"img/5.jpg",
         "directions": {
-
+            "back": 0
         }
     },
     { //6 = object
-        "titel":"",
-        "image":"",
+        "titel":"The Navigational Instruments",
+        "image":"img/6.jpg",
         "directions": {
-
+            //"back": 0
         }
     },
     { //7 = object
-        "titel":"",
-        "image":"",
+        "titel":"The Photo Albums",
+        "image":"img/7.png",
         "directions": {
-
+            //"back": 0
         }
     },
     { //8 = object
-        "titel":"",
-        "image":"",
+        "titel":"The Yacht Models",
+        "image":"img/8.jpg",
         "directions": {
-
+            //"back": 0
         }
     },
     { //9 = object
-        "titel":"",
-        "image":"",
+        "titel":"The Atlases",
+        "image":"img/9.jpg",
         "directions": {
-
+            //"back": 0
         }
     },
     { //10 = object
-        "titel":"",
-        "image":"",
+        "titel":"The Glass, Silver and Porcelain",
+        "image":"img/10.jpg",
         "directions": {
-
+            //"back": 0
         }
     },
     { //11 = object
-        "titel":"",
-        "image":"",
+        "titel":"Sal & Lori and Circus at Sea",
+        "image":"img/11.jpg",
         "directions": {
-
+            //"back": 0
         }
     },
     { //12 = object
-        "titel":"",
-        "image":"",
+        "titel":"My.Expo",
+        "image":"img/12.jpg",
         "directions": {
-
+           // "back": 0
         }
     },
     { //13 = object
-        "titel":"",
-        "image":"",
+        "titel":"The tale of the whale",
+        "image":"img/13.jpg",
         "directions": {
-
+           // "back": 0
         }
     },
     { //14 = object
-        "titel":"",
-        "image":"",
+        "titel":"See you in the Golden Age",
+        "image":"img/14.jpg",
         "directions": {
-
+           // "back": 0
         }
     },
-    { //15 = object
-        "titel":"",
-        "image":"",
-        "directions": {
-
-        }
-    },
-
-
 ];
 
 //mytitel.innerHTML = "dit is door script toegevoegd";
@@ -148,7 +151,7 @@ let locaties = [ //array
 function show(index){
     mytitel.innerHTML = locaties[index].titel;
     myimage.src = locaties[index].image;
-    current_index = index;
+    //current_index = index;
     updatedirections();
 }
 
@@ -167,7 +170,7 @@ function updatedirections(){
 
 function getinput(){
     show(input.value);
-    //console.log(input.value)
+    console.log(input.value)
     input.value = "";
     input.focus();
 }
